@@ -12,7 +12,7 @@ function init --on-event init_ndenv
     else
 
       if not set -q NDENV_ROOT
-        set -x NDENV_ROOT "$HOME/.rbenv"
+        set -x NDENV_ROOT "$HOME/.ndenv"
       end
 
       set PATH "$NDENV_ROOT/shims" $PATH
